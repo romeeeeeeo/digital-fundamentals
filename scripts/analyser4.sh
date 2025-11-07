@@ -1,6 +1,6 @@
 #!/bin/bash
 
-min=100; max=1
+min=1; max=100
 for i in $(ls $1)
 do
    for file in $(cat $1$i)
